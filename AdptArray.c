@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+// I was helped by the solution of Moad A of the previous cource.
+
 typedef struct AdptArray_
 {
     int ArrSize;
@@ -25,7 +27,6 @@ PAdptArray CreateAdptArray(COPY_FUNC COPY_FUNC, DEL_FUNC DEL_FUNC,PRINT_FUNC PRI
 	return pArr;
 
 }
-
 
 void DeleteAdptArray(PAdptArray pArr){
 
